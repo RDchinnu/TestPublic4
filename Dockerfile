@@ -1,5 +1,5 @@
 #define base image
-FROM python:3.14-slim (last pushed 3 days ago)
+FROM python:3.14-slim
 
 #install dependency
 RUN pip install streamlit
